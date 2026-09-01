@@ -5,174 +5,115 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Nagesh Modedara">
-<meta name="keywords" content="Nagesh Modedara, Nagesh Modedara Kutiyana, Kutiyana News, Porbandar News, Gujarat Local News, Local News Reporter, Kutiyana Reporter, Nagesh Modedara News">
+<meta name="keywords" content="Nagesh Modedara, Nagesh Modedara Kutiyana, Kutiyana News, Porbandar News, Gujarat Local News, Local News Reporter">
 <link rel="canonical" href="https://nagesh6731.github.io/Nageshmodedara.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Nagesh Modedara | Local News Reporter from Kutiyana, Gujarat">
-<meta property="og:description" content="Official profile of Nagesh Modedara, covering local news, public issues, community events and media reports from Kutiyana, Porbandar, Gujarat, India.">
+<meta property="og:description" content="Official profile of Nagesh Modedara, covering local news, public issues, community events and media reports from Kutiyana, Porbandar, Gujarat.">
 <meta property="og:image" content="https://nagesh6731.github.io/Nageshmodedara.github.io/profile.jpg">
-<meta name="twitter:card" content="summary_large_image">
 <title>Nagesh Modedara | Local News Reporter | Kutiyana, Porbandar, Gujarat</title>
-<meta name="description" content="Official profile of Nagesh Modedara, a local news reporter from Kutiyana, Porbandar, Gujarat. Local news, public issues, community updates, media reports and newspaper cuttings.">
 
-<!-- Google Fonts -->
+<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Noto+Sans+Gujarati:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Noto+Sans+Gujarati:wght@400;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 :root {
-  --primary: #0a192f;
-  --primary-light: #172a45;
-  --accent: #e63946;
-  --accent-glow: rgba(230, 57, 70, 0.4);
-  --accent-hover: #c51f2c;
-  --gold: #f59e0b;
-  --bg: #f8fafc;
-  --card-bg: #ffffff;
-  --text-main: #0f172a;
-  --text-muted: #475569;
+  --primary: #0f172a;
+  --accent: #dc2626;
+  --accent-soft: #fee2e2;
+  --gold: #d97706;
+  --bg-main: #f8fafc;
+  --card: #ffffff;
+  --text: #1e293b;
+  --muted: #64748b;
   --border: #e2e8f0;
   --radius: 16px;
-  --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.04);
-  --shadow-md: 0 10px 25px rgba(0, 0, 0, 0.07);
-  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.12);
+  --shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body { font-family: 'Plus Jakarta Sans', 'Noto Sans Gujarati', sans-serif; background: var(--bg); color: var(--text-main); line-height: 1.7; overflow-x: hidden; }
+body { font-family: 'Outfit', 'Noto Sans Gujarati', sans-serif; background: var(--bg-main); color: var(--text); line-height: 1.6; }
 
-/* Top Ticker Bar */
-.top-bar { background: #050d1a; color: #94a3b8; padding: 10px 6%; display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; border-bottom: 1px solid rgba(255,255,255,0.08); }
-.top-bar span { display: flex; align-items: center; gap: 6px; }
+/* Top Ticker */
+.ticker-bar { background: #1e293b; color: #cbd5e1; padding: 10px 5%; display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; border-bottom: 2px solid var(--accent); }
 
-/* Navigation */
-.nav { background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(14px); padding: 16px 6%; display: flex; justify-content: space-between; align-items: center; box-shadow: var(--shadow-sm); position: sticky; top: 0; z-index: 100; transition: all 0.3s ease; }
-.logo { font-size: 26px; font-weight: 800; color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+/* Header & Nav */
+header { background: #ffffff; position: sticky; top: 0; z-index: 99; box-shadow: 0 2px 15px rgba(0,0,0,0.04); border-bottom: 1px solid var(--border); }
+.nav-wrap { max-width: 1200px; margin: auto; padding: 16px 5%; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 24px; font-weight: 800; color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 8px; }
 .logo span { color: var(--accent); }
-.nav-links { display: flex; gap: 24px; align-items: center; }
-.nav-links a { text-decoration: none; color: var(--text-main); font-weight: 700; font-size: 15px; transition: color 0.2s; }
+.nav-links { display: flex; gap: 20px; list-style: none; }
+.nav-links a { text-decoration: none; color: var(--text); font-weight: 700; font-size: 15px; transition: 0.2s; }
 .nav-links a:hover { color: var(--accent); }
-.nav-btn { background: var(--accent); color: #fff !important; padding: 8px 18px; border-radius: 30px; box-shadow: 0 4px 14px var(--accent-glow); transition: transform 0.2s; }
-.nav-btn:hover { transform: translateY(-2px); }
 
 /* Hero Section */
-.hero { min-height: 580px; background: radial-gradient(circle at 80% 20%, rgba(230, 57, 70, 0.15), transparent 40%), linear-gradient(135deg, #050d1a 0%, #0a192f 50%, #112240 100%); position: relative; color: #fff; padding: 80px 6% 40px; display: flex; align-items: center; overflow: hidden; }
-.hero-content { width: 60%; z-index: 2; }
-.badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(230, 57, 70, 0.15); border: 1px solid var(--accent); color: #ff8b94; padding: 6px 16px; border-radius: 30px; font-size: 13px; font-weight: 800; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
-.badge-dot { width: 8px; height: 8px; background: var(--accent); border-radius: 50%; animation: pulse 1.5s infinite; }
-@keyframes pulse { 0% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(1.3); } 100% { opacity: 1; transform: scale(1); } }
-h1 { font-size: 54px; line-height: 1.15; font-weight: 800; margin-bottom: 12px; }
-h1 small { display: block; font-size: 22px; font-weight: 700; color: #94a3b8; letter-spacing: 3px; margin-top: 6px; }
-.hero-loc { font-size: 18px; color: #cbd5e1; margin: 16px 0; font-weight: 600; display: flex; align-items: center; gap: 10px; }
-.hero-loc::before { content: ""; width: 4px; height: 22px; background: var(--accent); border-radius: 2px; }
-.hero p { font-size: 18px; max-width: 620px; color: #94a3b8; margin-bottom: 32px; }
-.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; }
+.hero { max-width: 1200px; margin: 30px auto; padding: 0 5%; display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: center; }
+.hero-card { background: #ffffff; padding: 45px; border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); position: relative; overflow: hidden; }
+.hero-card::before { content: ""; position: absolute; top: 0; left: 0; width: 6px; height: 100%; background: var(--accent); }
+.tag { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-soft); color: var(--accent); padding: 5px 14px; border-radius: 30px; font-size: 13px; font-weight: 800; margin-bottom: 16px; }
+h1 { font-size: 42px; font-weight: 800; color: var(--primary); line-height: 1.2; margin-bottom: 8px; }
+h1 small { display: block; font-size: 18px; color: var(--muted); letter-spacing: 2px; margin-top: 4px; }
+.location { font-size: 16px; color: var(--accent); font-weight: 700; margin-bottom: 16px; }
+.hero p { font-size: 16px; color: var(--muted); margin-bottom: 25px; }
 
-.btn { display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, var(--accent), var(--accent-hover)); color: #fff; text-decoration: none; padding: 14px 26px; border-radius: 12px; font-weight: 700; font-size: 15px; box-shadow: 0 8px 24px var(--accent-glow); transition: all 0.25s ease; border: none; }
-.btn:hover { transform: translateY(-3px); box-shadow: 0 12px 28px var(--accent-glow); }
-.btn-alt { background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: none; }
-.btn-alt:hover { background: rgba(255, 255, 255, 0.16); }
+.btn-group { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: #fff; text-decoration: none; padding: 12px 22px; border-radius: 10px; font-weight: 700; font-size: 14px; transition: 0.2s; }
+.btn:hover { background: #b91c1c; transform: translateY(-2px); }
+.btn-outline { background: #fff; color: var(--text); border: 1px solid var(--border); }
+.btn-outline:hover { background: #f1f5f9; }
 
-.hero-img-wrap { position: absolute; right: 6%; bottom: 0; width: 400px; height: 90%; z-index: 1; display: flex; align-items: flex-end; }
-.hero-img { width: 100%; height: 100%; object-fit: cover; object-position: top; border-radius: 24px 24px 0 0; filter: drop-shadow(0 20px 30px rgba(0,0,0,0.5)); }
+.hero-img-box { text-align: center; }
+.hero-img { width: 100%; max-width: 380px; height: 440px; object-fit: cover; object-position: top; border-radius: var(--radius); box-shadow: var(--shadow); border: 4px solid #ffffff; }
 
-/* Layout & Headings */
-.container { max-width: 1280px; margin: auto; padding: 70px 6%; }
-.section-title { font-size: 32px; font-weight: 800; color: var(--primary); margin-bottom: 8px; position: relative; padding-left: 18px; }
-.section-title::before { content: ""; position: absolute; left: 0; top: 6px; bottom: 6px; width: 6px; background: var(--accent); border-radius: 4px; }
-.section-sub { color: var(--text-muted); font-size: 16px; margin-bottom: 35px; }
+/* Main Content Layout */
+.main-wrap { max-width: 1200px; margin: auto; padding: 20px 5% 60px; }
+.sec-title { font-size: 26px; font-weight: 800; color: var(--primary); margin: 45px 0 10px; display: flex; align-items: center; gap: 10px; }
+.sec-title::after { content: ""; flex: 1; height: 2px; background: var(--border); }
+.sec-sub { font-size: 15px; color: var(--muted); margin-bottom: 25px; }
 
-/* About Card */
-.about-card { background: var(--card-bg); border-radius: var(--radius); padding: 40px; box-shadow: var(--shadow-sm); border: 1px solid var(--border); display: grid; grid-template-columns: 240px 1fr; gap: 35px; align-items: center; }
-.about-img { width: 100%; height: 290px; object-fit: cover; border-radius: 14px; box-shadow: var(--shadow-md); }
-.about-body h3 { font-size: 30px; color: var(--primary); font-weight: 800; }
-.role-badge { display: inline-block; background: #fee2e2; color: var(--accent); font-weight: 700; padding: 4px 12px; border-radius: 6px; font-size: 14px; margin: 8px 0 16px; }
-.about-desc { font-size: 16px; color: var(--text-muted); }
+/* Media Cuttings Gallery */
+.cuttings-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 18px; }
+.cutting-item { background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow); cursor: pointer; transition: 0.25s; }
+.cutting-item:hover { transform: translateY(-5px); border-color: var(--accent); }
+.cutting-item img { width: 100%; height: 280px; object-fit: cover; object-position: top; display: block; }
+.cutting-item p { padding: 12px; font-size: 13px; font-weight: 700; color: var(--text); text-align: center; background: #fff; }
 
-/* Gallery / Cuttings Grid */
-.gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-.cutting-card { background: var(--card-bg); border-radius: 14px; overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow-sm); transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); cursor: pointer; position: relative; }
-.cutting-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); border-color: #cbd5e1; }
-.cutting-card-img { position: relative; width: 100%; height: 320px; overflow: hidden; background: #f1f5f9; }
-.cutting-card img { width: 100%; height: 100%; object-fit: cover; object-position: top; transition: transform 0.4s ease; }
-.cutting-card:hover img { transform: scale(1.05); }
-.cutting-overlay { position: absolute; inset: 0; background: rgba(10, 25, 47, 0.4); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s; color: #fff; font-weight: 700; font-size: 15px; }
-.cutting-card:hover .cutting-overlay { opacity: 1; }
-.cutting-card p { padding: 16px; font-weight: 700; font-size: 15px; color: var(--text-main); text-align: center; }
+/* Public App Card */
+.public-card { background: linear-gradient(135deg, #1e293b, #0f172a); color: #fff; border-radius: var(--radius); padding: 35px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: center; box-shadow: var(--shadow); margin-top: 30px; }
+.public-stats { display: flex; gap: 30px; margin: 20px 0; }
+.stat-box .val { font-size: 32px; font-weight: 800; color: #f87171; }
+.stat-box .lbl { font-size: 13px; color: #94a3b8; }
+.public-features { background: rgba(255,255,255,0.05); padding: 25px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); }
+.public-features li { margin-bottom: 8px; list-style: none; font-size: 14px; color: #e2e8f0; }
 
-/* Public App Spotlight */
-.public-box { margin-top: 50px; background: linear-gradient(135deg, #0a192f 0%, #172a45 100%); color: #fff; border-radius: 20px; padding: 45px; display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; box-shadow: var(--shadow-lg); position: relative; overflow: hidden; }
-.public-box::after { content: "📱"; position: absolute; right: -20px; bottom: -30px; font-size: 180px; opacity: 0.05; pointer-events: none; }
-.public-left h2 { font-size: 28px; margin-bottom: 6px; }
-.public-tag { color: var(--gold); font-weight: 800; font-size: 16px; }
-.stats-row { display: flex; gap: 40px; margin: 25px 0; }
-.stat-item .stat-num { font-size: 38px; font-weight: 800; color: #ff8b94; line-height: 1; }
-.stat-item .stat-lbl { font-size: 14px; color: #94a3b8; font-weight: 600; margin-top: 4px; }
-.public-right { background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 16px; padding: 30px; display: flex; flex-direction: column; justify-content: center; }
-.public-right ul { list-style: none; margin-bottom: 24px; }
-.public-right li { margin-bottom: 12px; display: flex; align-items: center; gap: 10px; color: #e2e8f0; font-size: 15px; }
-
-/* Features & Coverage */
-.features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-top: 40px; }
-.feature-card { background: var(--card-bg); border-radius: 14px; padding: 28px; border: 1px solid var(--border); box-shadow: var(--shadow-sm); transition: transform 0.25s; }
-.feature-card:hover { transform: translateY(-4px); }
-.feature-icon { font-size: 32px; margin-bottom: 14px; display: inline-block; }
-.feature-card h4 { font-size: 18px; font-weight: 800; color: var(--primary); margin-bottom: 8px; }
-.feature-card p { font-size: 14px; color: var(--text-muted); }
-
-/* Contact & Social Cards */
-.contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; margin-top: 25px; }
-.contact-card { display: flex; align-items: center; gap: 16px; padding: 20px; border-radius: 14px; text-decoration: none; background: var(--card-bg); border: 1px solid var(--border); box-shadow: var(--shadow-sm); transition: all 0.25s; }
-.contact-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); border-color: #cbd5e1; }
-.contact-icon { width: 50px; height: 50px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px; flex-shrink: 0; }
-.contact-card b { display: block; color: var(--primary); font-size: 16px; font-weight: 800; }
-.contact-card span { font-size: 13px; color: var(--text-muted); word-break: break-all; }
-
-/* Custom Contact Colors */
-.bg-wa { background: #e7f9ee; color: #25d366; }
-.bg-call { background: #eff6ff; color: #3b82f6; }
-.bg-mail { background: #fef2f2; color: #ef4444; }
-.bg-yt { background: #fff1f2; color: #e11d48; }
-.bg-fb { background: #eff6ff; color: #1877f2; }
-.bg-pub { background: #fefce8; color: #ca8a04; }
+/* Contact Cards */
+.contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
+.contact-box { display: flex; align-items: center; gap: 15px; background: #ffffff; padding: 18px; border-radius: 12px; text-decoration: none; border: 1px solid var(--border); box-shadow: var(--shadow); transition: 0.2s; }
+.contact-box:hover { transform: translateY(-3px); border-color: #cbd5e1; }
+.contact-icon { font-size: 26px; }
+.contact-box b { display: block; color: var(--primary); font-size: 15px; }
+.contact-box span { font-size: 12px; color: var(--muted); word-break: break-all; }
 
 /* Lightbox Modal */
-.modal { display: none; position: fixed; z-index: 1000; inset: 0; background: rgba(5, 13, 26, 0.94); backdrop-filter: blur(8px); justify-content: center; align-items: center; padding: 20px; opacity: 0; transition: opacity 0.3s ease; }
-.modal.show { display: flex; opacity: 1; }
-.modal-content { max-width: 90%; max-height: 90vh; border-radius: 12px; box-shadow: 0 25px 60px rgba(0,0,0,0.6); object-fit: contain; transform: scale(0.9); transition: transform 0.3s ease; }
-.modal.show .modal-content { transform: scale(1); }
-.modal-close { position: absolute; top: 25px; right: 30px; font-size: 40px; color: #fff; cursor: pointer; font-weight: 300; transition: color 0.2s; }
-.modal-close:hover { color: var(--accent); }
+.modal { display: none; position: fixed; z-index: 1000; inset: 0; background: rgba(0,0,0,0.85); justify-content: center; align-items: center; padding: 20px; }
+.modal img { max-width: 90%; max-height: 85vh; border-radius: 8px; }
+.modal-close { position: absolute; top: 20px; right: 25px; font-size: 35px; color: #fff; cursor: pointer; }
 
 /* Footer */
-footer { background: #050d1a; color: #94a3b8; padding: 50px 6% 30px; text-align: center; font-size: 14px; border-top: 1px solid rgba(255,255,255,0.06); }
-footer h3 { color: #fff; font-size: 20px; margin-bottom: 6px; }
+footer { background: #0f172a; color: #94a3b8; padding: 35px 5%; text-align: center; font-size: 14px; margin-top: 50px; }
+footer h4 { color: #fff; font-size: 18px; margin-bottom: 6px; }
 
-/* Floating WhatsApp Button */
-.float-wa { position: fixed; bottom: 25px; right: 25px; width: 60px; height: 60px; background: #25d366; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4); z-index: 99; text-decoration: none; transition: transform 0.25s; }
-.float-wa:hover { transform: scale(1.1); }
-
-/* Responsive Media Queries */
-@media (max-width: 992px) {
-  .hero-content { width: 100%; text-align: center; }
-  .hero-loc { justify-content: center; }
-  .hero-actions { justify-content: center; }
-  .hero-img-wrap { display: none; }
-  .public-box { grid-template-columns: 1fr; }
-  .about-card { grid-template-columns: 1fr; text-align: center; }
-  .about-img { margin: auto; max-width: 260px; }
-}
-
-@media (max-width: 650px) {
-  .top-bar { font-size: 11px; flex-direction: column; gap: 4px; text-align: center; }
-  .nav { padding: 12px 6%; }
+/* Mobile View */
+@media (max-width: 850px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-img-box { order: -1; }
+  .hero-img { max-height: 350px; }
+  .public-card { grid-template-columns: 1fr; }
   .nav-links { display: none; }
-  h1 { font-size: 38px; }
-  h1 small { font-size: 18px; }
-  .container { padding: 45px 5%; }
-  .stats-row { gap: 20px; justify-content: center; }
+  h1 { font-size: 32px; }
 }
 </style>
 
@@ -198,196 +139,138 @@ footer h3 { color: #fff; font-size: 20px; margin-bottom: 6px; }
 </head>
 <body>
 
-<div class="top-bar">
-  <span>📍 Kutiyana, Porbandar, Gujarat, India</span>
-  <span>Local News • Ground Reports • Public Awareness</span>
+<div class="ticker-bar">
+  <span>📍 કુતિયાણા • પોરબંદર • ગુજરાત</span>
+  <span>તાજા સમાચાર • લોકહિતના પ્રશ્નો • ગ્રાઉન્ડ રિપોર્ટિંગ</span>
 </div>
 
-<nav class="nav">
-  <a href="#home" class="logo">નાગેશ <span>મોડેદરા</span></a>
-  <div class="nav-links">
-    <a href="#home">હોમ</a>
-    <a href="#about">મારા વિશે</a>
-    <a href="#media">મીડિયા સફર</a>
-    <a href="#coverage">કાર્યક્ષેત્ર</a>
-    <a href="#public">Public App</a>
-    <a href="#contact" class="nav-btn">સંપર્ક કરો</a>
+<header>
+  <div class="nav-wrap">
+    <a href="#home" class="logo">નાગેશ <span>મોડેદરા</span></a>
+    <ul class="nav-links">
+      <li><a href="#home">હોમ</a></li>
+      <li><a href="#about">મારા વિશે</a></li>
+      <li><a href="#media">મીડિયા સફર</a></li>
+      <li><a href="#public">Public App</a></li>
+      <li><a href="#contact">સંપર્ક</a></li>
+    </ul>
   </div>
-</nav>
+</header>
 
 <section class="hero" id="home">
-  <div class="hero-content">
-    <div class="badge"><span class="badge-dot"></span> Local News Reporter • Kutiyana</div>
+  <div class="hero-card">
+    <div class="tag">● LOCAL NEWS REPORTER</div>
     <h1>નાગેશ મોડેદરા<small>NAGESH MODEDARA</small></h1>
-    <div class="hero-loc">Kutiyana | Porbandar | Gujarat</div>
-    <p>કુતિયાણા શહેર અને આસપાસના ગ્રામ્ય વિસ્તારોના સચોટ સમાચાર, જનસમસ્યાઓ, લોકપ્રશ્નો અને સામાજિક ઘટનાઓ લોકો અને તંત્ર સુધી પહોંચાડવાનો સતત પ્રયાસ.</p>
-    <div class="hero-actions">
-      <a class="btn" href="#media">📰 ન્યૂઝ રિપોર્ટ્સ જુઓ</a>
-      <a class="btn btn-alt" href="https://public.app/user/profile/HcZyuucq5iXoLWQTb0nTM7bhtV03" target="_blank" rel="noopener">📱 Public App પ્રોફાઇલ</a>
+    <div class="location">📍 કુતિયાણા, પોરબંદર (ગુજરાત)</div>
+    <p>કુતિયાણા શહેર અને આસપાસના ગ્રામ્ય વિસ્તારોમાં બનતી મહત્વપૂર્ણ ઘટનાઓ, જનસમસ્યાઓ, સામાજિક કાર્યક્રમો અને લોકોના હિતના મુદ્દાઓને અવાજ આપવાનો સતત પ્રયાસ.</p>
+    <div class="btn-group">
+      <a class="btn" href="#media">📰 અખબારી કટિંગ્સ જુઓ</a>
+      <a class="btn btn-outline" href="https://public.app/user/profile/HcZyuucq5iXoLWQTb0nTM7bhtV03" target="_blank" rel="noopener">📱 Public App પ્રોફાઇલ</a>
     </div>
   </div>
-  <div class="hero-img-wrap">
-    <img src="profile.jpg" alt="Nagesh Modedara - Local News Reporter from Kutiyana" class="hero-img">
+  <div class="hero-img-box">
+    <img src="profile.jpg" alt="Nagesh Modedara" class="hero-img">
   </div>
 </section>
 
-<div class="container">
+<div class="main-wrap">
   <!-- About Section -->
   <section id="about">
-    <h2 class="section-title">About Nagesh Modedara | મારા વિશે</h2>
-    <p class="section-sub">કુતિયાણા અને પોરબંદર જિલ્લાના વિશ્વસનીય સ્થાનિક પત્રકાર</p>
-    <div class="about-card">
-      <img src="profile.jpg" alt="Nagesh Modedara Profile" class="about-img">
-      <div class="about-body">
-        <h3>નાગેશ મોડેદરા</h3>
-        <span class="role-badge">Local News Reporter</span>
-        <p class="about-desc" style="margin-bottom: 12px;"><b>વિસ્તાર:</b> કુતિયાણા, પોરબંદર, ગુજરાત (ભારત)</p>
-        <p class="about-desc">કુતિયાણા શહેર તેમજ આસપાસના ગ્રામ્ય વિસ્તારોની ગ્રાઉન્ડ લેવલની વાસ્તવિકતા, લોકહિતના પ્રશ્નો, સરકારી યોજનાઓ, વિકાસ કાર્યો તેમજ સામાજિક કાર્યક્રમો અંગે સતત અહેવાલ રજૂ કરવાનો સંકલ્પ. ફોટો, વિડિયો અને ડિજિટલ માધ્યમો થકી ઝડપી માહિતી આપવાનો અમારો પ્રયાસ છે.</p>
-      </div>
+    <h2 class="sec-title">મારા વિશે (About Me)</h2>
+    <p class="sec-sub">કુતિયાણા અને પોરબંદર પંથકના વિશ્વસનીય સ્થાનિક પત્રકાર</p>
+    <div style="background:#fff; padding:25px; border-radius:12px; border:1px solid var(--border); box-shadow:var(--shadow);">
+      <p style="font-size:16px; color:#475569;">હું <b>નાગેશ મોડેદરા</b>, કુતિયાણા (પોરબંદર) વિસ્તારમાં સ્થાનિક પત્રકારત્વ સાથે જોડાયેલ છું. અમારો મુખ્ય ઉદ્દેશ્ય સામાન્ય નાગરિકોના પ્રશ્નો, વિકાસ કાર્યો, પાયાની સમસ્યાઓ (જેમ કે રોડ, પાણી, વીજળી) તેમજ સામાજિક-ધાર્મિક ગતિવિધિઓને લોકો અને વહીવટી તંત્ર સુધી સચોટ રીતે પહોંચાડવાનો છે.</p>
     </div>
   </section>
 
-  <!-- Newspaper Cuttings -->
-  <section id="media" style="margin-top: 65px;">
-    <h2 class="section-title">Media Reports & Cuttings | મીડિયા સફર</h2>
-    <p class="section-sub">સ્થાનિક સમાચાર પત્રોમાં પ્રકાશિત અહેવાલો (મોટો ફોટો જોવા ક્લિક કરો)</p>
-    <div class="gallery-grid">
-      <div class="cutting-card" onclick="openModal(this)">
-        <div class="cutting-card-img"><img src="cutting1.jpg" alt="ન્યૂઝ રિપોર્ટ ૧"><div class="cutting-overlay">🔍 મોટો ફોટો જુઓ</div></div>
-        <p>સ્થાનિક ઘટનાક્રમ અંગેનો અહેવાલ</p>
-      </div>
-      <div class="cutting-card" onclick="openModal(this)">
-        <div class="cutting-card-img"><img src="cutting2.jpg" alt="ન્યૂઝ રિપોર્ટ ૨"><div class="cutting-overlay">🔍 મોટો ફોટો જુઓ</div></div>
-        <p>સામાજિક અને લોકઉપયોગી સમાચાર</p>
-      </div>
-      <div class="cutting-card" onclick="openModal(this)">
-        <div class="cutting-card-img"><img src="cutting3.jpg" alt="ન્યૂઝ રિપોર્ટ ૩"><div class="cutting-overlay">🔍 મોટો ફોટો જુઓ</div></div>
-        <p>વેપારીઓ અને સ્થાનિક મુદ્દાઓ</p>
-      </div>
-      <div class="cutting-card" onclick="openModal(this)">
-        <div class="cutting-card-img"><img src="cutting4.jpg" alt="ન્યૂઝ રિપોર્ટ ૪"><div class="cutting-overlay">🔍 મોટો ફોટો જુઓ</div></div>
-        <p>જનજાગૃતિ અને લોકપ્રશ્નો</p>
-      </div>
-      <div class="cutting-card" onclick="openModal(this)">
-        <div class="cutting-card-img"><img src="cutting5.jpg" alt="ન્યૂઝ રિપોર્ટ ૫"><div class="cutting-overlay">🔍 મોટો ફોટો જુઓ</div></div>
-        <p>કાર્યક્રમો અને વિશેષ કવરેજ</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Areas of Coverage -->
-  <section id="coverage" style="margin-top: 65px;">
-    <h2 class="section-title">Areas of Coverage | કાર્યક્ષેત્ર</h2>
-    <p class="section-sub">અમારી રિપોર્ટિંગના મુખ્ય ક્ષેત્રો અને વિશેષતાઓ</p>
-    <div class="features-grid">
-      <div class="feature-card">
-        <span class="feature-icon">📢</span>
-        <h4>જનસમસ્યાઓ અને અવાજ</h4>
-        <p>રોડ-રસ્તા, પાણી, વીજળી અને સ્થાનિક લોકોના પાયાના પ્રશ્નોને વાચા આપવી.</p>
-      </div>
-      <div class="feature-card">
-        <span class="feature-icon">🏛️</span>
-        <h4>ગ્રામ્ય અને શહેર સમાચાર</h4>
-        <p>કુતિયાણા તાલુકાના તમામ ગામડાઓ અને નગરપાલિકા વિસ્તારના તાજા સમાચાર.</p>
-      </div>
-      <div class="feature-card">
-        <span class="feature-icon">🎉</span>
-        <h4>સામાજિક કાર્યક્રમો</h4>
-        <p>ધાર્મિક ઉત્સવો, રક્તદાન શિબિર, સામાજિક મેળાવડા અને સેવાકીય પ્રવૃત્તિઓનું કવરેજ.</p>
-      </div>
-      <div class="feature-card">
-        <span class="feature-icon">📹</span>
-        <h4>ડિજિટલ વીડિયો રિપોર્ટિંગ</h4>
-        <p>ઘટનાસ્થળેથી સચોટ વીડિયો અને ગ્રાઉન્ડ રિપોર્ટ્સનું ઝડપી પ્રસારણ.</p>
-      </div>
+  <!-- Media Cuttings -->
+  <section id="media">
+    <h2 class="sec-title">મીડિયા સફર અને અહેવાલો</h2>
+    <p class="sec-sub">સ્થાનિક સમાચાર પત્રોમાં પ્રકાશિત મુખ્ય અહેવાલો (મોટો ફોટો જોવા ક્લિક કરો)</p>
+    <div class="cuttings-grid">
+      <div class="cutting-item" onclick="openImg(this)"><img src="cutting1.jpg" alt="કટિંગ ૧"><p>સ્થાનિક ઘટનાક્રમ રિપોર્ટ</p></div>
+      <div class="cutting-item" onclick="openImg(this)"><img src="cutting2.jpg" alt="કટિંગ ૨"><p>સામાજિક સમાચાર</p></div>
+      <div class="cutting-item" onclick="openImg(this)"><img src="cutting3.jpg" alt="કટિંગ ૩"><p>સ્થાનિક વેપારી મુદ્દા</p></div>
+      <div class="cutting-item" onclick="openImg(this)"><img src="cutting4.jpg" alt="કટિંગ ૪"><p>જનજાગૃતિ અહેવાલ</p></div>
+      <div class="cutting-item" onclick="openImg(this)"><img src="cutting5.jpg" alt="કટિંગ ૫"><p>વિશેષ કવરેજ</p></div>
     </div>
   </section>
 
   <!-- Public App Section -->
-  <section class="public-box" id="public">
-    <div class="public-left">
-      <h2>📱 Public App પર સક્રિયતા</h2>
-      <p class="public-tag">@nageshmodedara007 (Verified Profile)</p>
-      <div class="stats-row">
-        <div class="stat-item"><div class="stat-num">177K+</div><div class="stat-lbl">Followers</div></div>
-        <div class="stat-item"><div class="stat-num">5.9K+</div><div class="stat-lbl">News Posts</div></div>
+  <section class="public-card" id="public">
+    <div>
+      <h2 style="font-size:26px;">📱 Public App Profile</h2>
+      <p style="color:#f87171; font-weight:700;">@nageshmodedara007</p>
+      <div class="public-stats">
+        <div class="stat-box"><div class="val">177K+</div><div class="lbl">Followers</div></div>
+        <div class="stat-box"><div class="val">5.9K+</div><div class="lbl">Videos / Posts</div></div>
       </div>
-      <p style="color: #cbd5e1; font-size: 15px; margin-bottom: 25px;">કુતિયાણા અને પોરબંદર જિલ્લાના સૌથી ઝડપી વિડિયો સમાચાર મેળવવા માટે Public App પર આજે જ ફોલો કરો.</p>
-      <a class="btn" href="https://public.app/user/profile/HcZyuucq5iXoLWQTb0nTM7bhtV03" target="_blank" rel="noopener">Official Profile ખોલો →</a>
+      <p style="font-size:14px; color:#cbd5e1; margin-bottom:20px;">વિડિયો સમાચાર અને સૌથી ઝડપી લોકલ અપડેટ્સ માટે Public App પર ફોલો કરો.</p>
+      <a class="btn" href="https://public.app/user/profile/HcZyuucq5iXoLWQTb0nTM7bhtV03" target="_blank" rel="noopener">Open Public Profile →</a>
     </div>
-    <div class="public-right">
-      <h3 style="margin-bottom: 14px; font-size: 20px;">વિશેષતાઓ:</h3>
+    <div class="public-features">
+      <h4 style="margin-bottom:12px; font-size:16px;">મુખ્ય વિશેષતાઓ:</h4>
       <ul>
-        <li>✓ ગ્રાઉન્ડ લેવલના ઝડપી વિડિયો અપડેટ્સ</li>
-        <li>✓ સ્થાનિક લોકો સાથે સીધો સંવાદ</li>
-        <li>✓ મહત્વપૂર્ણ ઘટનાઓનું લાઈવ કવરેજ</li>
+        <li>✓ દૈનિક ગ્રાઉન્ડ વિડિયો સમાચાર</li>
+        <li>✓ લોકપ્રશ્નોની સીધી રજૂઆત</li>
+        <li>✓ ૧૦૦% લોકલ અને સચોટ માહિતી</li>
       </ul>
-      <a class="btn btn-alt" style="text-align: center; justify-content: center;" href="https://public.app/user/profile/HcZyuucq5iXoLWQTb0nTM7bhtV03" target="_blank" rel="noopener">Follow on Public App</a>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" style="margin-top: 65px;">
-    <h2 class="section-title">Connect & Contact | સંપર્ક કરો</h2>
-    <p class="section-sub">સમાચાર, માહિતી કે પ્રશ્નો માટે નીચે આપેલા માધ્યમો દ્વારા સંપર્ક કરો</p>
+  <!-- Contact Grid -->
+  <section id="contact">
+    <h2 class="sec-title">સંપર્ક કરો (Connect)</h2>
+    <p class="sec-sub">સમાચાર અથવા માહિતી આપવા માટે નીચેના માધ્યમોથી સંપર્ક કરો</p>
     <div class="contact-grid">
-      <a class="contact-card" href="https://wa.me/919664769193" target="_blank" rel="noopener">
-        <div class="contact-icon bg-wa">💬</div>
+      <a class="contact-box" href="https://wa.me/919664769193" target="_blank" rel="noopener">
+        <div class="contact-icon">💬</div>
         <div><b>WhatsApp</b><span>+91 96647 69193</span></div>
       </a>
-      <a class="contact-card" href="tel:+919664769193">
-        <div class="contact-icon bg-call">📞</div>
-        <div><b>Phone Call</b><span>+91 96647 69193</span></div>
+      <a class="contact-box" href="tel:+919664769193">
+        <div class="contact-icon">📞</div>
+        <div><b>Mobile Call</b><span>+91 96647 69193</span></div>
       </a>
-      <a class="contact-card" href="mailto:Nageshmodedara007@gmail.com">
-        <div class="contact-icon bg-mail">✉️</div>
+      <a class="contact-box" href="mailto:Nageshmodedara007@gmail.com">
+        <div class="contact-icon">✉️</div>
         <div><b>Email</b><span>Nageshmodedara007@gmail.com</span></div>
       </a>
-      <a class="contact-card" href="https://youtube.com/@kutiyananews?si=ln3GVBm9hRPcVDNQ" target="_blank" rel="noopener">
-        <div class="contact-icon bg-yt">▶️</div>
+      <a class="contact-box" href="https://youtube.com/@kutiyananews?si=ln3GVBm9hRPcVDNQ" target="_blank" rel="noopener">
+        <div class="contact-icon">▶️</div>
         <div><b>YouTube</b><span>Kutiyana News</span></div>
       </a>
-      <a class="contact-card" href="https://www.facebook.com/share/1DmGVDsbhd/" target="_blank" rel="noopener">
-        <div class="contact-icon bg-fb">📘</div>
+      <a class="contact-box" href="https://www.facebook.com/share/1DmGVDsbhd/" target="_blank" rel="noopener">
+        <div class="contact-icon">📘</div>
         <div><b>Facebook</b><span>Official Page</span></div>
       </a>
-      <a class="contact-card" href="https://public.app/user/profile/HcZyuucq5iXoLWQTb0nTM7bhtV03" target="_blank" rel="noopener">
-        <div class="contact-icon bg-pub">📱</div>
+      <a class="contact-box" href="https://public.app/user/profile/HcZyuucq5iXoLWQTb0nTM7bhtV03" target="_blank" rel="noopener">
+        <div class="contact-icon">📱</div>
         <div><b>Public App</b><span>@nageshmodedara007</span></div>
       </a>
     </div>
   </section>
 </div>
 
-<!-- Lightbox Modal -->
-<div id="imageModal" class="modal" onclick="closeModal()">
+<!-- Modal -->
+<div id="imgModal" class="modal" onclick="closeImg()">
   <span class="modal-close">&times;</span>
-  <img id="modalImg" class="modal-content" src="" alt="Enlarged News Cutting">
+  <img id="modalTarget" src="" alt="Zoom Image">
 </div>
 
-<!-- Floating WhatsApp Action -->
-<a href="https://wa.me/919664769193" class="float-wa" target="_blank" rel="noopener" title="WhatsApp પર મેસેજ કરો">💬</a>
-
 <footer>
-  <h3>નાગેશ મોડેદરા | Nagesh Modedara</h3>
+  <h4>નાગેશ મોડેદરા | Nagesh Modedara</h4>
   <p>Local News Reporter • કુતિયાણા, પોરબંદર, ગુજરાત</p>
-  <p style="margin-top: 10px; font-size: 13px; opacity: 0.7;">Email: Nageshmodedara007@gmail.com | Mobile: +91 96647 69193</p>
-  <p style="margin-top: 8px; font-size: 12px; opacity: 0.5;">© 2026 Nagesh Modedara. All Rights Reserved.</p>
+  <p style="margin-top:10px; font-size:12px; opacity:0.6;">© 2026 તમામ હક્ક સુરક્ષિત</p>
 </footer>
 
 <script>
-function openModal(element) {
-  const imgSrc = element.querySelector('img').src;
-  const modal = document.getElementById('imageModal');
-  document.getElementById('modalImg').src = imgSrc;
-  modal.classList.add('show');
+function openImg(el) {
+  document.getElementById('modalTarget').src = el.querySelector('img').src;
+  document.getElementById('imgModal').style.display = 'flex';
 }
-function closeModal() {
-  document.getElementById('imageModal').classList.remove('show');
+function closeImg() {
+  document.getElementById('imgModal').style.display = 'none';
 }
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeModal();
-});
 </script>
 
 </body>
